@@ -2,11 +2,11 @@
 
 ## Build the Docker Image
 ```sh
-docker build -t ansible:latest .
+$ docker build -t ansible:latest .
 ```
 ## Run your Docker image with Ansible
 ```sh
-docker run -it ansible
+$ docker run -it ansible
 ```
 ```sh
 $ docker run  ansible ansible --version
