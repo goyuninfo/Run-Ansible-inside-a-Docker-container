@@ -5,7 +5,7 @@ docker build -t ansible:latest .
 
 ## Run your Docker image with Ansible
 docker run -it ansible
-
+```
 $ docker run  ansible ansible --version
 ansible 2.10.8
   config file = None
